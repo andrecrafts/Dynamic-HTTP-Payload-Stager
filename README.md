@@ -9,13 +9,20 @@ A Python tool packages decryption params (key, IV, etc.) into a Base64 file you 
 
 This lets the same loader decrypt different payloads on demand - no rebuilding or redeploying required.
 
+## Video Demo
+https://github.com/user-attachments/assets/ae2b636e-de8e-4969-9e59-059a3be483b3
+
+## How to use
+
+To use the Dynamic HTTP/S Stager, configure three parameters:
+
+- The number of variables
+- The URL to the hosted file
+- The delimiter used in the Python script
 
 ## Code
 - [ConvertToFormat.py](https://github.com/WafflesExploits/Dynamic-HTTP-Payload-Stager/blob/main/ConvertToFormat.py)
 - [Dynamic_HTTP_Payload_Stager.cpp](https://github.com/WafflesExploits/Dynamic-HTTP-Payload-Stager/blob/main/Dynamic_HTTP_Payload_Stager.cpp)
-
-## Video Demo
-[Video Demo](https://wafflesexploits.github.io/assets/video_demo_http-stager.mp4)
 
 ## Update
 `ConvertToFormat.py` now supports: read-from-file, custom delimiter, and output path.
