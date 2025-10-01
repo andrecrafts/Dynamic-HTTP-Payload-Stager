@@ -2,7 +2,7 @@
 
 ### **A dynamic HTTP/S stager that lets one shellcode loader be reused for different encrypted payloads - no rebuilds.**
 
-Learn more about this in my [blog post](https://wafflesexploits.github.io/posts/Dynamic-HTTP-Payload-Stager/)
+Learn more about this in my [blog post](https://andrecrafts.com/projects/dynamic-https-payload-stager/)
 
 ## Quick overview
 A Python tool packages decryption params (key, IV, etc.) into a Base64 file you host. The stager fetches that file at runtime, parses `<name><delimiter><hex>` lines, converts hex -> bytes, and loads them into memory.
@@ -21,8 +21,8 @@ To use the Dynamic HTTP/S Stager, configure three parameters:
 - The delimiter used in the Python script
 
 ## Code
-- [ConvertToFormat.py](https://github.com/WafflesExploits/Dynamic-HTTP-Payload-Stager/blob/main/ConvertToFormat.py)
-- [Dynamic_HTTP_Payload_Stager.cpp](https://github.com/WafflesExploits/Dynamic-HTTP-Payload-Stager/blob/main/Dynamic_HTTP_Payload_Stager.cpp)
+- [ConvertToFormat.py](https://github.com/andrecrafts/Dynamic-HTTP-Payload-Stager/blob/main/ConvertToFormat.py)
+- [Dynamic_HTTP_Payload_Stager.cpp](https://github.com/andrecrafts/Dynamic-HTTP-Payload-Stager/blob/main/Dynamic_HTTP_Payload_Stager.cpp)
 
 ## Update
 `ConvertToFormat.py` now supports: read-from-file, custom delimiter, and output path.
